@@ -1,0 +1,4743 @@
+{
+  "scope": "one-second samples over each server lifetime, including startup/warmup; system GPU, not process-exclusive; ranges can miss peaks",
+  "runs": [
+    {
+      "source": "phase3\\tail\\t00-corrected-ram0-v3",
+      "cache": 0,
+      "arm": "corrected",
+      "trial": 0,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1260.0,
+          3762.0,
+          3762.0
+        ],
+        "gpu_free_mib": [
+          4187.0,
+          4187.0,
+          6689.0
+        ],
+        "temperature_c": [
+          52.0,
+          61.0,
+          67.0
+        ],
+        "power_w": [
+          15.75,
+          67.47999999999999,
+          99.37
+        ],
+        "sm_mhz": [
+          1605.0,
+          2497.5,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          90.5,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.1820086032628692,
+        "fraction_wall_time_with_two_or_more": 0.5781360278969337,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 1.0474473109617501,
+        "fraction_wall_time_with_two_or_more": 0.44778130975957453,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.79798,
+      "native_decode_calls_all_phases": 297.0
+    },
+    {
+      "source": "phase3\\tail\\t00-corrected-ram8192-v3",
+      "cache": 8192,
+      "arm": "corrected",
+      "trial": 0,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1260.0,
+          3762.0,
+          3762.0
+        ],
+        "gpu_free_mib": [
+          4187.0,
+          4187.0,
+          6689.0
+        ],
+        "temperature_c": [
+          52.0,
+          53.0,
+          64.0
+        ],
+        "power_w": [
+          15.81,
+          34.18,
+          75.87
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          8.5,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.5882488232168311,
+        "fraction_wall_time_with_two_or_more": 0.2864908676968786,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.48625479362704815,
+        "fraction_wall_time_with_two_or_more": 0.21289595353722804,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.97037,
+      "native_decode_calls_all_phases": 270.0
+    },
+    {
+      "source": "phase3\\tail\\t00-fifo-ram0-v3",
+      "cache": 0,
+      "arm": "fifo",
+      "trial": 0,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1260.0,
+          3762.0,
+          3762.0
+        ],
+        "gpu_free_mib": [
+          4187.0,
+          4187.0,
+          6689.0
+        ],
+        "temperature_c": [
+          51.0,
+          56.0,
+          65.0
+        ],
+        "power_w": [
+          16.02,
+          66.255,
+          96.21
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          66.0,
+          100.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.1515479688797359,
+        "fraction_wall_time_with_two_or_more": 0.5570545335955156,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.997673338133553,
+        "fraction_wall_time_with_two_or_more": 0.40972507047351825,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.77333,
+      "native_decode_calls_all_phases": 300.0
+    },
+    {
+      "source": "phase3\\tail\\t00-fifo-ram8192-v3",
+      "cache": 8192,
+      "arm": "fifo",
+      "trial": 0,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1260.0,
+          3762.0,
+          3762.0
+        ],
+        "gpu_free_mib": [
+          4187.0,
+          4187.0,
+          6689.0
+        ],
+        "temperature_c": [
+          53.0,
+          54.0,
+          65.0
+        ],
+        "power_w": [
+          15.85,
+          34.285,
+          58.58
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          2.0,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.5844453691018334,
+        "fraction_wall_time_with_two_or_more": 0.28599286533934,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.4865560027734789,
+        "fraction_wall_time_with_two_or_more": 0.21115525074498082,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.95588,
+      "native_decode_calls_all_phases": 272.0
+    },
+    {
+      "source": "phase3\\tail\\t01-corrected-ram0-v3",
+      "cache": 0,
+      "arm": "corrected",
+      "trial": 1,
+      "samples": 21,
+      "ranges": {
+        "gpu_used_mib": [
+          1260.0,
+          3762.0,
+          3762.0
+        ],
+        "gpu_free_mib": [
+          4187.0,
+          4187.0,
+          6689.0
+        ],
+        "temperature_c": [
+          50.0,
+          63.0,
+          65.0
+        ],
+        "power_w": [
+          15.75,
+          72.35,
+          103.27
+        ],
+        "sm_mhz": [
+          1605.0,
+          2400.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          92.0,
+          100.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.256943613554068,
+        "fraction_wall_time_with_two_or_more": 0.6176560971805686,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 1.161776931557022,
+        "fraction_wall_time_with_two_or_more": 0.5257231514226705,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.8277,
+      "native_decode_calls_all_phases": 296.0
+    },
+    {
+      "source": "phase3\\tail\\t01-corrected-ram8192-v3",
+      "cache": 8192,
+      "arm": "corrected",
+      "trial": 1,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1260.0,
+          3762.0,
+          3762.0
+        ],
+        "gpu_free_mib": [
+          4187.0,
+          4187.0,
+          6689.0
+        ],
+        "temperature_c": [
+          51.0,
+          53.0,
+          65.0
+        ],
+        "power_w": [
+          15.8,
+          21.994999999999997,
+          82.96
+        ],
+        "sm_mhz": [
+          1605.0,
+          1680.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          2.5,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.5886406201217131,
+        "fraction_wall_time_with_two_or_more": 0.2878803724384539,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.4632935643401807,
+        "fraction_wall_time_with_two_or_more": 0.20213811123282116,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.97761,
+      "native_decode_calls_all_phases": 268.0
+    },
+    {
+      "source": "phase3\\tail\\t01-fifo-ram0-v3",
+      "cache": 0,
+      "arm": "fifo",
+      "trial": 1,
+      "samples": 21,
+      "ranges": {
+        "gpu_used_mib": [
+          1272.0,
+          3762.0,
+          3762.0
+        ],
+        "gpu_free_mib": [
+          4187.0,
+          4187.0,
+          6677.0
+        ],
+        "temperature_c": [
+          53.0,
+          62.0,
+          67.0
+        ],
+        "power_w": [
+          18.14,
+          73.65,
+          100.64
+        ],
+        "sm_mhz": [
+          1605.0,
+          2400.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          7001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          88.0,
+          100.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.3209303629833595,
+        "fraction_wall_time_with_two_or_more": 0.6469969659877617,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 1.183720303644376,
+        "fraction_wall_time_with_two_or_more": 0.5134121097548313,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.81017,
+      "native_decode_calls_all_phases": 295.0
+    },
+    {
+      "source": "phase3\\tail\\t01-fifo-ram8192-v3",
+      "cache": 8192,
+      "arm": "fifo",
+      "trial": 1,
+      "samples": 19,
+      "ranges": {
+        "gpu_used_mib": [
+          1260.0,
+          3762.0,
+          3762.0
+        ],
+        "gpu_free_mib": [
+          4187.0,
+          4187.0,
+          6689.0
+        ],
+        "temperature_c": [
+          51.0,
+          53.0,
+          62.0
+        ],
+        "power_w": [
+          15.96,
+          34.59,
+          65.57
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          2.0,
+          84.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.559423474776407,
+        "fraction_wall_time_with_two_or_more": 0.27162690234200704,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.4443815232209749,
+        "fraction_wall_time_with_two_or_more": 0.19187979769192426,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.97026,
+      "native_decode_calls_all_phases": 269.0
+    },
+    {
+      "source": "phase3\\tail\\t02-corrected-ram0-v3",
+      "cache": 0,
+      "arm": "corrected",
+      "trial": 2,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1259.0,
+          3762.0,
+          3762.0
+        ],
+        "gpu_free_mib": [
+          4187.0,
+          4187.0,
+          6690.0
+        ],
+        "temperature_c": [
+          52.0,
+          60.0,
+          67.0
+        ],
+        "power_w": [
+          15.73,
+          63.385,
+          103.14
+        ],
+        "sm_mhz": [
+          1605.0,
+          2355.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          53.5,
+          100.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.0004223891452664,
+        "fraction_wall_time_with_two_or_more": 0.49061717839564595,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.8506434154070341,
+        "fraction_wall_time_with_two_or_more": 0.3448984922773482,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.82818,
+      "native_decode_calls_all_phases": 291.0
+    },
+    {
+      "source": "phase3\\tail\\t02-corrected-ram8192-v3",
+      "cache": 8192,
+      "arm": "corrected",
+      "trial": 2,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1259.0,
+          3762.0,
+          3762.0
+        ],
+        "gpu_free_mib": [
+          4187.0,
+          4187.0,
+          6690.0
+        ],
+        "temperature_c": [
+          51.0,
+          52.0,
+          65.0
+        ],
+        "power_w": [
+          14.72,
+          32.410000000000004,
+          80.37
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          1.0,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.5141125013583049,
+        "fraction_wall_time_with_two_or_more": 0.24855374434755287,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.4121839871646568,
+        "fraction_wall_time_with_two_or_more": 0.1770769880589647,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.96296,
+      "native_decode_calls_all_phases": 270.0
+    },
+    {
+      "source": "phase3\\tail\\t02-fifo-ram0-v3",
+      "cache": 0,
+      "arm": "fifo",
+      "trial": 2,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1259.0,
+          3762.0,
+          3762.0
+        ],
+        "gpu_free_mib": [
+          4187.0,
+          4187.0,
+          6690.0
+        ],
+        "temperature_c": [
+          51.0,
+          59.0,
+          65.0
+        ],
+        "power_w": [
+          15.62,
+          55.89,
+          103.33
+        ],
+        "sm_mhz": [
+          1605.0,
+          2415.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          69.0,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.0030424175446593,
+        "fraction_wall_time_with_two_or_more": 0.4898424016479227,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.8518220072396385,
+        "fraction_wall_time_with_two_or_more": 0.34219423692660417,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.79392,
+      "native_decode_calls_all_phases": 296.0
+    },
+    {
+      "source": "phase3\\tail\\t02-fifo-ram8192-v3",
+      "cache": 8192,
+      "arm": "fifo",
+      "trial": 2,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1259.0,
+          3762.0,
+          3762.0
+        ],
+        "gpu_free_mib": [
+          4187.0,
+          4187.0,
+          6690.0
+        ],
+        "temperature_c": [
+          51.0,
+          53.5,
+          65.0
+        ],
+        "power_w": [
+          15.66,
+          22.505,
+          80.98
+        ],
+        "sm_mhz": [
+          1605.0,
+          1687.5,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          1.0,
+          98.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.5334283019640534,
+        "fraction_wall_time_with_two_or_more": 0.25848227977897076,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.43107171835184477,
+        "fraction_wall_time_with_two_or_more": 0.18750569480627977,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.97388,
+      "native_decode_calls_all_phases": 268.0
+    },
+    {
+      "source": "phase3\\tail\\t03-corrected-ram0-v3",
+      "cache": 0,
+      "arm": "corrected",
+      "trial": 3,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1261.0,
+          3763.0,
+          3774.0
+        ],
+        "gpu_free_mib": [
+          4175.0,
+          4186.0,
+          6688.0
+        ],
+        "temperature_c": [
+          51.0,
+          56.0,
+          65.0
+        ],
+        "power_w": [
+          16.85,
+          57.864999999999995,
+          101.45
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          28.0,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.1520052436401065,
+        "fraction_wall_time_with_two_or_more": 0.5615090372920402,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.9838654836985136,
+        "fraction_wall_time_with_two_or_more": 0.3988593537818277,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.79054,
+      "native_decode_calls_all_phases": 296.0
+    },
+    {
+      "source": "phase3\\tail\\t03-corrected-ram8192-v3",
+      "cache": 8192,
+      "arm": "corrected",
+      "trial": 3,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1259.0,
+          3762.0,
+          3762.0
+        ],
+        "gpu_free_mib": [
+          4187.0,
+          4187.0,
+          6690.0
+        ],
+        "temperature_c": [
+          51.0,
+          53.5,
+          63.0
+        ],
+        "power_w": [
+          15.6,
+          24.395,
+          67.09
+        ],
+        "sm_mhz": [
+          1605.0,
+          2077.5,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          1.0,
+          98.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.6306575365241025,
+        "fraction_wall_time_with_two_or_more": 0.3067419154944937,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.5344228608859262,
+        "fraction_wall_time_with_two_or_more": 0.23799799041369663,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.97037,
+      "native_decode_calls_all_phases": 270.0
+    },
+    {
+      "source": "phase3\\tail\\t03-fifo-ram0-v3",
+      "cache": 0,
+      "arm": "fifo",
+      "trial": 3,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1262.0,
+          3760.0,
+          3762.0
+        ],
+        "gpu_free_mib": [
+          4187.0,
+          4189.0,
+          6687.0
+        ],
+        "temperature_c": [
+          52.0,
+          58.5,
+          66.0
+        ],
+        "power_w": [
+          15.7,
+          62.78,
+          92.27
+        ],
+        "sm_mhz": [
+          1605.0,
+          2347.5,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          89.5,
+          100.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.1143744760564283,
+        "fraction_wall_time_with_two_or_more": 0.5424602249694184,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.9690022827588888,
+        "fraction_wall_time_with_two_or_more": 0.40147674134074723,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.79125,
+      "native_decode_calls_all_phases": 297.0
+    },
+    {
+      "source": "phase3\\tail\\t03-fifo-ram8192-v3",
+      "cache": 8192,
+      "arm": "fifo",
+      "trial": 3,
+      "samples": 19,
+      "ranges": {
+        "gpu_used_mib": [
+          1259.0,
+          3762.0,
+          3762.0
+        ],
+        "gpu_free_mib": [
+          4187.0,
+          4187.0,
+          6690.0
+        ],
+        "temperature_c": [
+          51.0,
+          53.0,
+          62.0
+        ],
+        "power_w": [
+          16.36,
+          33.99,
+          76.36
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          6.0,
+          96.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.6197295744006688,
+        "fraction_wall_time_with_two_or_more": 0.302155102369315,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.5161664969502976,
+        "fraction_wall_time_with_two_or_more": 0.22803181089210453,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.97037,
+      "native_decode_calls_all_phases": 270.0
+    },
+    {
+      "source": "phase3\\tail\\t04-corrected-ram0-v3",
+      "cache": 0,
+      "arm": "corrected",
+      "trial": 4,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1258.0,
+          3758.0,
+          3767.0
+        ],
+        "gpu_free_mib": [
+          4182.0,
+          4191.0,
+          6691.0
+        ],
+        "temperature_c": [
+          53.0,
+          62.0,
+          67.0
+        ],
+        "power_w": [
+          15.69,
+          72.85499999999999,
+          101.24
+        ],
+        "sm_mhz": [
+          1605.0,
+          2437.5,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          76.5,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.303997953623702,
+        "fraction_wall_time_with_two_or_more": 0.6392427502257673,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 1.1795803224221164,
+        "fraction_wall_time_with_two_or_more": 0.5201351200083162,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.79933,
+      "native_decode_calls_all_phases": 299.0
+    },
+    {
+      "source": "phase3\\tail\\t04-corrected-ram8192-v3",
+      "cache": 8192,
+      "arm": "corrected",
+      "trial": 4,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1258.0,
+          3760.0,
+          3760.0
+        ],
+        "gpu_free_mib": [
+          4189.0,
+          4189.0,
+          6691.0
+        ],
+        "temperature_c": [
+          52.0,
+          53.0,
+          64.0
+        ],
+        "power_w": [
+          16.93,
+          34.54,
+          73.58
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          1.5,
+          98.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.6101403807938904,
+        "fraction_wall_time_with_two_or_more": 0.2977565622469295,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.5112774245935947,
+        "fraction_wall_time_with_two_or_more": 0.22553181305121134,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.97037,
+      "native_decode_calls_all_phases": 270.0
+    },
+    {
+      "source": "phase3\\tail\\t04-fifo-ram0-v3",
+      "cache": 0,
+      "arm": "fifo",
+      "trial": 4,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1258.0,
+          3760.0,
+          3776.0
+        ],
+        "gpu_free_mib": [
+          4173.0,
+          4189.0,
+          6691.0
+        ],
+        "temperature_c": [
+          51.0,
+          61.5,
+          66.0
+        ],
+        "power_w": [
+          15.59,
+          75.255,
+          97.56
+        ],
+        "sm_mhz": [
+          1605.0,
+          2377.5,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          87.0,
+          100.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.2837988882180278,
+        "fraction_wall_time_with_two_or_more": 0.6277808017384254,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 1.1628471476582956,
+        "fraction_wall_time_with_two_or_more": 0.5127783408620991,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.78859,
+      "native_decode_calls_all_phases": 298.0
+    },
+    {
+      "source": "phase3\\tail\\t04-fifo-ram8192-v3",
+      "cache": 8192,
+      "arm": "fifo",
+      "trial": 4,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1258.0,
+          3760.0,
+          3760.0
+        ],
+        "gpu_free_mib": [
+          4189.0,
+          4189.0,
+          6691.0
+        ],
+        "temperature_c": [
+          53.0,
+          54.0,
+          60.0
+        ],
+        "power_w": [
+          16.06,
+          34.805,
+          77.77
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          2.0,
+          87.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.6174879760715024,
+        "fraction_wall_time_with_two_or_more": 0.30232424733309077,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.5240782195940217,
+        "fraction_wall_time_with_two_or_more": 0.22894020026554762,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.95588,
+      "native_decode_calls_all_phases": 272.0
+    },
+    {
+      "source": "phase3\\tail\\t05-corrected-ram0-v3",
+      "cache": 0,
+      "arm": "corrected",
+      "trial": 5,
+      "samples": 21,
+      "ranges": {
+        "gpu_used_mib": [
+          1253.0,
+          3755.0,
+          3757.0
+        ],
+        "gpu_free_mib": [
+          4192.0,
+          4194.0,
+          6696.0
+        ],
+        "temperature_c": [
+          51.0,
+          57.0,
+          65.0
+        ],
+        "power_w": [
+          16.0,
+          50.8,
+          101.12
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          16.0,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.809175613447717,
+        "fraction_wall_time_with_two_or_more": 0.38705984676268784,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.7546177145988595,
+        "fraction_wall_time_with_two_or_more": 0.34028227095872365,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.80068,
+      "native_decode_calls_all_phases": 296.0
+    },
+    {
+      "source": "phase3\\tail\\t05-corrected-ram8192-v3",
+      "cache": 8192,
+      "arm": "corrected",
+      "trial": 5,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1252.0,
+          3755.0,
+          3755.0
+        ],
+        "gpu_free_mib": [
+          4194.0,
+          4194.0,
+          6697.0
+        ],
+        "temperature_c": [
+          52.0,
+          53.5,
+          66.0
+        ],
+        "power_w": [
+          16.27,
+          22.045,
+          90.05
+        ],
+        "sm_mhz": [
+          1605.0,
+          1665.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          2.5,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.541291035473797,
+        "fraction_wall_time_with_two_or_more": 0.26212050042373747,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.47053450258002805,
+        "fraction_wall_time_with_two_or_more": 0.20657656449488426,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.96296,
+      "native_decode_calls_all_phases": 270.0
+    },
+    {
+      "source": "phase3\\tail\\t05-fifo-ram0-v3",
+      "cache": 0,
+      "arm": "fifo",
+      "trial": 5,
+      "samples": 21,
+      "ranges": {
+        "gpu_used_mib": [
+          1253.0,
+          3754.0,
+          3755.0
+        ],
+        "gpu_free_mib": [
+          4194.0,
+          4195.0,
+          6696.0
+        ],
+        "temperature_c": [
+          52.0,
+          56.0,
+          65.0
+        ],
+        "power_w": [
+          16.69,
+          48.06,
+          97.7
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          43.0,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.8135914258169213,
+        "fraction_wall_time_with_two_or_more": 0.3884626128326365,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.7328233210082695,
+        "fraction_wall_time_with_two_or_more": 0.3209484825800059,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.78788,
+      "native_decode_calls_all_phases": 297.0
+    },
+    {
+      "source": "phase3\\tail\\t05-fifo-ram8192-v3",
+      "cache": 8192,
+      "arm": "fifo",
+      "trial": 5,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1251.0,
+          3755.0,
+          3755.0
+        ],
+        "gpu_free_mib": [
+          4194.0,
+          4194.0,
+          6698.0
+        ],
+        "temperature_c": [
+          51.0,
+          53.0,
+          64.0
+        ],
+        "power_w": [
+          15.0,
+          32.97,
+          94.5
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          3.0,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.5174828909610995,
+        "fraction_wall_time_with_two_or_more": 0.2514211226790257,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.4450353665328158,
+        "fraction_wall_time_with_two_or_more": 0.19337793057318356,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.96296,
+      "native_decode_calls_all_phases": 270.0
+    },
+    {
+      "source": "phase3\\tail\\t06-corrected-ram0-v3",
+      "cache": 0,
+      "arm": "corrected",
+      "trial": 6,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1257.0,
+          3761.0,
+          3762.0
+        ],
+        "gpu_free_mib": [
+          4187.0,
+          4188.0,
+          6692.0
+        ],
+        "temperature_c": [
+          54.0,
+          61.5,
+          68.0
+        ],
+        "power_w": [
+          16.19,
+          69.74,
+          99.4
+        ],
+        "sm_mhz": [
+          1605.0,
+          2497.5,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          70.5,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.2881180703154735,
+        "fraction_wall_time_with_two_or_more": 0.630018550470775,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 1.2238983479114989,
+        "fraction_wall_time_with_two_or_more": 0.5690684129051375,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.81271,
+      "native_decode_calls_all_phases": 299.0
+    },
+    {
+      "source": "phase3\\tail\\t06-corrected-ram8192-v3",
+      "cache": 8192,
+      "arm": "corrected",
+      "trial": 6,
+      "samples": 19,
+      "ranges": {
+        "gpu_used_mib": [
+          1260.0,
+          3760.0,
+          3763.0
+        ],
+        "gpu_free_mib": [
+          4186.0,
+          4189.0,
+          6689.0
+        ],
+        "temperature_c": [
+          52.0,
+          54.0,
+          65.0
+        ],
+        "power_w": [
+          15.84,
+          34.89,
+          86.66
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          13.0,
+          100.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.5802358791057225,
+        "fraction_wall_time_with_two_or_more": 0.2799446271132852,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.4834439491931767,
+        "fraction_wall_time_with_two_or_more": 0.20922059051041086,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.95941,
+      "native_decode_calls_all_phases": 271.0
+    },
+    {
+      "source": "phase3\\tail\\t06-fifo-ram0-v3",
+      "cache": 0,
+      "arm": "fifo",
+      "trial": 6,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1257.0,
+          3760.0,
+          3760.0
+        ],
+        "gpu_free_mib": [
+          4189.0,
+          4189.0,
+          6692.0
+        ],
+        "temperature_c": [
+          52.0,
+          60.5,
+          68.0
+        ],
+        "power_w": [
+          15.56,
+          73.465,
+          103.46
+        ],
+        "sm_mhz": [
+          1605.0,
+          2490.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          82.0,
+          100.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.344666411729932,
+        "fraction_wall_time_with_two_or_more": 0.6590209035107116,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 1.2440972610626122,
+        "fraction_wall_time_with_two_or_more": 0.5631628503718444,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.80268,
+      "native_decode_calls_all_phases": 299.0
+    },
+    {
+      "source": "phase3\\tail\\t06-fifo-ram8192-v3",
+      "cache": 8192,
+      "arm": "fifo",
+      "trial": 6,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1261.0,
+          3760.0,
+          3763.0
+        ],
+        "gpu_free_mib": [
+          4186.0,
+          4189.0,
+          6688.0
+        ],
+        "temperature_c": [
+          53.0,
+          54.0,
+          62.0
+        ],
+        "power_w": [
+          16.02,
+          34.349999999999994,
+          91.66
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          1.5,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.5916018830763438,
+        "fraction_wall_time_with_two_or_more": 0.28602511155292903,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.4909828953591912,
+        "fraction_wall_time_with_two_or_more": 0.2135419024830163,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.95941,
+      "native_decode_calls_all_phases": 271.0
+    },
+    {
+      "source": "phase3\\tail\\t07-corrected-ram0-v3",
+      "cache": 0,
+      "arm": "corrected",
+      "trial": 7,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1259.0,
+          3755.5,
+          3756.0
+        ],
+        "gpu_free_mib": [
+          4193.0,
+          4193.5,
+          6690.0
+        ],
+        "temperature_c": [
+          52.0,
+          62.5,
+          67.0
+        ],
+        "power_w": [
+          15.0,
+          56.16,
+          100.53
+        ],
+        "sm_mhz": [
+          1605.0,
+          2475.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          88.5,
+          98.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.1537411963266755,
+        "fraction_wall_time_with_two_or_more": 0.5608597421928635,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 1.0111059137511722,
+        "fraction_wall_time_with_two_or_more": 0.4213842187149682,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.78405,
+      "native_decode_calls_all_phases": 301.0
+    },
+    {
+      "source": "phase3\\tail\\t07-corrected-ram8192-v3",
+      "cache": 8192,
+      "arm": "corrected",
+      "trial": 7,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1259.0,
+          3761.0,
+          3761.0
+        ],
+        "gpu_free_mib": [
+          4188.0,
+          4188.0,
+          6690.0
+        ],
+        "temperature_c": [
+          54.0,
+          55.5,
+          65.0
+        ],
+        "power_w": [
+          15.93,
+          34.815,
+          88.29
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          2.0,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.5677985796579224,
+        "fraction_wall_time_with_two_or_more": 0.2740103449828492,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.4601980295334497,
+        "fraction_wall_time_with_two_or_more": 0.19612014415095722,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.97398,
+      "native_decode_calls_all_phases": 269.0
+    },
+    {
+      "source": "phase3\\tail\\t07-fifo-ram0-v3",
+      "cache": 0,
+      "arm": "fifo",
+      "trial": 7,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1253.0,
+          3753.0,
+          3778.0
+        ],
+        "gpu_free_mib": [
+          4171.0,
+          4196.0,
+          6696.0
+        ],
+        "temperature_c": [
+          55.0,
+          63.0,
+          68.0
+        ],
+        "power_w": [
+          16.83,
+          64.14,
+          104.18
+        ],
+        "sm_mhz": [
+          1605.0,
+          2467.5,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          78.5,
+          100.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.1438560004487268,
+        "fraction_wall_time_with_two_or_more": 0.5548885491329143,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.9999013409818515,
+        "fraction_wall_time_with_two_or_more": 0.4144548790872108,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.77333,
+      "native_decode_calls_all_phases": 300.0
+    },
+    {
+      "source": "phase3\\tail\\t07-fifo-ram8192-v3",
+      "cache": 8192,
+      "arm": "fifo",
+      "trial": 7,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1258.0,
+          3761.0,
+          3770.0
+        ],
+        "gpu_free_mib": [
+          4179.0,
+          4188.0,
+          6691.0
+        ],
+        "temperature_c": [
+          53.0,
+          55.0,
+          62.0
+        ],
+        "power_w": [
+          16.32,
+          34.745,
+          74.93
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          3.0,
+          95.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.5509270424080354,
+        "fraction_wall_time_with_two_or_more": 0.26694684136543906,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.45527257782520064,
+        "fraction_wall_time_with_two_or_more": 0.19694257683190253,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.96296,
+      "native_decode_calls_all_phases": 270.0
+    },
+    {
+      "source": "phase3\\tail\\t08-corrected-ram0-v3",
+      "cache": 0,
+      "arm": "corrected",
+      "trial": 8,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1253.0,
+          3756.0,
+          3756.0
+        ],
+        "gpu_free_mib": [
+          4193.0,
+          4193.0,
+          6696.0
+        ],
+        "temperature_c": [
+          53.0,
+          56.0,
+          67.0
+        ],
+        "power_w": [
+          16.11,
+          58.765,
+          97.06
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          31.0,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.0542361437783954,
+        "fraction_wall_time_with_two_or_more": 0.5115685792642344,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.9552653108519318,
+        "fraction_wall_time_with_two_or_more": 0.4181310097189596,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.80135,
+      "native_decode_calls_all_phases": 297.0
+    },
+    {
+      "source": "phase3\\tail\\t08-corrected-ram8192-v3",
+      "cache": 8192,
+      "arm": "corrected",
+      "trial": 8,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1252.0,
+          3755.0,
+          3755.0
+        ],
+        "gpu_free_mib": [
+          4194.0,
+          4194.0,
+          6697.0
+        ],
+        "temperature_c": [
+          52.0,
+          54.0,
+          65.0
+        ],
+        "power_w": [
+          14.99,
+          34.42,
+          88.55
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          6.5,
+          93.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.5141917054990203,
+        "fraction_wall_time_with_two_or_more": 0.2494912482026585,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.4249936214901108,
+        "fraction_wall_time_with_two_or_more": 0.18175934109992822,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.95926,
+      "native_decode_calls_all_phases": 270.0
+    },
+    {
+      "source": "phase3\\tail\\t08-fifo-ram0-v3",
+      "cache": 0,
+      "arm": "fifo",
+      "trial": 8,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1252.0,
+          3755.0,
+          3771.0
+        ],
+        "gpu_free_mib": [
+          4178.0,
+          4194.0,
+          6697.0
+        ],
+        "temperature_c": [
+          52.0,
+          59.0,
+          67.0
+        ],
+        "power_w": [
+          17.35,
+          60.385000000000005,
+          102.46
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          74.0,
+          100.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.0724664850748364,
+        "fraction_wall_time_with_two_or_more": 0.5215523574176518,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.955862888904118,
+        "fraction_wall_time_with_two_or_more": 0.4097434256141052,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.80471,
+      "native_decode_calls_all_phases": 297.0
+    },
+    {
+      "source": "phase3\\tail\\t08-fifo-ram8192-v3",
+      "cache": 8192,
+      "arm": "fifo",
+      "trial": 8,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1251.0,
+          3755.0,
+          3758.0
+        ],
+        "gpu_free_mib": [
+          4191.0,
+          4194.0,
+          6698.0
+        ],
+        "temperature_c": [
+          53.0,
+          55.0,
+          64.0
+        ],
+        "power_w": [
+          16.22,
+          23.185,
+          88.81
+        ],
+        "sm_mhz": [
+          1605.0,
+          1695.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          7001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          2.0,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.5226849373332306,
+        "fraction_wall_time_with_two_or_more": 0.25190542806842225,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.4384110732974845,
+        "fraction_wall_time_with_two_or_more": 0.18408612914186084,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.95572,
+      "native_decode_calls_all_phases": 271.0
+    },
+    {
+      "source": "phase3\\tail\\t09-corrected-ram0-v3",
+      "cache": 0,
+      "arm": "corrected",
+      "trial": 9,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1252.0,
+          3754.0,
+          3755.0
+        ],
+        "gpu_free_mib": [
+          4193.0,
+          4194.0,
+          6697.0
+        ],
+        "temperature_c": [
+          51.0,
+          61.5,
+          65.0
+        ],
+        "power_w": [
+          15.36,
+          74.125,
+          101.75
+        ],
+        "sm_mhz": [
+          1605.0,
+          2385.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          52.5,
+          100.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.2464072697281179,
+        "fraction_wall_time_with_two_or_more": 0.6087277023084076,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 1.1165767706063001,
+        "fraction_wall_time_with_two_or_more": 0.4822976310487695,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.78667,
+      "native_decode_calls_all_phases": 300.0
+    },
+    {
+      "source": "phase3\\tail\\t09-corrected-ram8192-v3",
+      "cache": 8192,
+      "arm": "corrected",
+      "trial": 9,
+      "samples": 19,
+      "ranges": {
+        "gpu_used_mib": [
+          1253.0,
+          3756.0,
+          3756.0
+        ],
+        "gpu_free_mib": [
+          4193.0,
+          4193.0,
+          6696.0
+        ],
+        "temperature_c": [
+          52.0,
+          54.0,
+          66.0
+        ],
+        "power_w": [
+          16.16,
+          27.34,
+          71.9
+        ],
+        "sm_mhz": [
+          1605.0,
+          1830.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          1.0,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.6144825046525545,
+        "fraction_wall_time_with_two_or_more": 0.2978776460256627,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.5077373416830764,
+        "fraction_wall_time_with_two_or_more": 0.22289962902225452,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.96667,
+      "native_decode_calls_all_phases": 270.0
+    },
+    {
+      "source": "phase3\\tail\\t09-fifo-ram0-v3",
+      "cache": 0,
+      "arm": "fifo",
+      "trial": 9,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1253.0,
+          3754.5,
+          3755.0
+        ],
+        "gpu_free_mib": [
+          4193.0,
+          4193.5,
+          6696.0
+        ],
+        "temperature_c": [
+          53.0,
+          60.5,
+          67.0
+        ],
+        "power_w": [
+          15.63,
+          69.705,
+          100.35
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          87.0,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.212028395251326,
+        "fraction_wall_time_with_two_or_more": 0.5904004161381747,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 1.0529343331737453,
+        "fraction_wall_time_with_two_or_more": 0.43580033331133766,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.78667,
+      "native_decode_calls_all_phases": 300.0
+    },
+    {
+      "source": "phase3\\tail\\t09-fifo-ram8192-v3",
+      "cache": 8192,
+      "arm": "fifo",
+      "trial": 9,
+      "samples": 19,
+      "ranges": {
+        "gpu_used_mib": [
+          1253.0,
+          3754.0,
+          3755.0
+        ],
+        "gpu_free_mib": [
+          4193.0,
+          4194.0,
+          6696.0
+        ],
+        "temperature_c": [
+          51.0,
+          52.0,
+          64.0
+        ],
+        "power_w": [
+          15.2,
+          29.54,
+          77.6
+        ],
+        "sm_mhz": [
+          1605.0,
+          1950.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          2.0,
+          100.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.6106691197748964,
+        "fraction_wall_time_with_two_or_more": 0.29500026922666,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.504136714856185,
+        "fraction_wall_time_with_two_or_more": 0.2184860152698055,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.94853,
+      "native_decode_calls_all_phases": 272.0
+    },
+    {
+      "source": "phase3\\tail\\t10-corrected-ram0-v3",
+      "cache": 0,
+      "arm": "corrected",
+      "trial": 10,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1259.0,
+          3762.0,
+          3767.0
+        ],
+        "gpu_free_mib": [
+          4182.0,
+          4187.0,
+          6690.0
+        ],
+        "temperature_c": [
+          52.0,
+          58.5,
+          67.0
+        ],
+        "power_w": [
+          16.72,
+          69.56,
+          103.76
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          48.0,
+          100.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.1741674608655868,
+        "fraction_wall_time_with_two_or_more": 0.5714672156134852,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.9895450571037541,
+        "fraction_wall_time_with_two_or_more": 0.39586680748275255,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.80405,
+      "native_decode_calls_all_phases": 296.0
+    },
+    {
+      "source": "phase3\\tail\\t10-corrected-ram8192-v3",
+      "cache": 8192,
+      "arm": "corrected",
+      "trial": 10,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1259.0,
+          3762.0,
+          3762.0
+        ],
+        "gpu_free_mib": [
+          4187.0,
+          4187.0,
+          6690.0
+        ],
+        "temperature_c": [
+          50.0,
+          51.5,
+          65.0
+        ],
+        "power_w": [
+          15.82,
+          21.73,
+          96.88
+        ],
+        "sm_mhz": [
+          1605.0,
+          1605.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          2.5,
+          97.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.5322408268519786,
+        "fraction_wall_time_with_two_or_more": 0.2575885475001523,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.43720663624901274,
+        "fraction_wall_time_with_two_or_more": 0.1872479770954871,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.96654,
+      "native_decode_calls_all_phases": 269.0
+    },
+    {
+      "source": "phase3\\tail\\t10-fifo-ram0-v3",
+      "cache": 0,
+      "arm": "fifo",
+      "trial": 10,
+      "samples": 21,
+      "ranges": {
+        "gpu_used_mib": [
+          1259.0,
+          3762.0,
+          3762.0
+        ],
+        "gpu_free_mib": [
+          4187.0,
+          4187.0,
+          6690.0
+        ],
+        "temperature_c": [
+          50.0,
+          56.0,
+          65.0
+        ],
+        "power_w": [
+          14.78,
+          58.02,
+          96.91
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          32.0,
+          100.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.136901885950084,
+        "fraction_wall_time_with_two_or_more": 0.5544842008126687,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 1.0154642334787944,
+        "fraction_wall_time_with_two_or_more": 0.43870677116349194,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.7893,
+      "native_decode_calls_all_phases": 299.0
+    },
+    {
+      "source": "phase3\\tail\\t10-fifo-ram8192-v3",
+      "cache": 8192,
+      "arm": "fifo",
+      "trial": 10,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1260.0,
+          3762.0,
+          3763.0
+        ],
+        "gpu_free_mib": [
+          4186.0,
+          4187.0,
+          6689.0
+        ],
+        "temperature_c": [
+          52.0,
+          54.0,
+          66.0
+        ],
+        "power_w": [
+          14.75,
+          34.394999999999996,
+          95.81
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          11.5,
+          95.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.5205896836515909,
+        "fraction_wall_time_with_two_or_more": 0.2529998893914565,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.4127767112857691,
+        "fraction_wall_time_with_two_or_more": 0.1758603073597995,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.96654,
+      "native_decode_calls_all_phases": 269.0
+    },
+    {
+      "source": "phase3\\tail\\t11-corrected-ram0-v3",
+      "cache": 0,
+      "arm": "corrected",
+      "trial": 11,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1252.0,
+          3755.0,
+          3755.0
+        ],
+        "gpu_free_mib": [
+          4194.0,
+          4194.0,
+          6697.0
+        ],
+        "temperature_c": [
+          50.0,
+          56.0,
+          65.0
+        ],
+        "power_w": [
+          15.19,
+          56.495,
+          89.81
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          48.0,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.01805920308982,
+        "fraction_wall_time_with_two_or_more": 0.4929360748678087,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.9287168608885243,
+        "fraction_wall_time_with_two_or_more": 0.4093236609506706,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.7953,
+      "native_decode_calls_all_phases": 298.0
+    },
+    {
+      "source": "phase3\\tail\\t11-corrected-ram8192-v3",
+      "cache": 8192,
+      "arm": "corrected",
+      "trial": 11,
+      "samples": 19,
+      "ranges": {
+        "gpu_used_mib": [
+          1253.0,
+          3755.0,
+          3755.0
+        ],
+        "gpu_free_mib": [
+          4194.0,
+          4194.0,
+          6696.0
+        ],
+        "temperature_c": [
+          53.0,
+          54.0,
+          63.0
+        ],
+        "power_w": [
+          17.09,
+          34.81,
+          65.26
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          1.0,
+          83.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.541396676556265,
+        "fraction_wall_time_with_two_or_more": 0.26268533249593434,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.4595821461406865,
+        "fraction_wall_time_with_two_or_more": 0.19615568756600113,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.96296,
+      "native_decode_calls_all_phases": 270.0
+    },
+    {
+      "source": "phase3\\tail\\t11-fifo-ram0-v3",
+      "cache": 0,
+      "arm": "fifo",
+      "trial": 11,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1251.0,
+          3755.0,
+          3755.0
+        ],
+        "gpu_free_mib": [
+          4194.0,
+          4194.0,
+          6698.0
+        ],
+        "temperature_c": [
+          53.0,
+          56.0,
+          66.0
+        ],
+        "power_w": [
+          16.53,
+          56.209999999999994,
+          88.48
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          44.5,
+          100.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.0244037657044613,
+        "fraction_wall_time_with_two_or_more": 0.49523631361840925,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.9525482743957393,
+        "fraction_wall_time_with_two_or_more": 0.42854894566090534,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.79264,
+      "native_decode_calls_all_phases": 299.0
+    },
+    {
+      "source": "phase3\\tail\\t11-fifo-ram8192-v3",
+      "cache": 8192,
+      "arm": "fifo",
+      "trial": 11,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1253.0,
+          3755.0,
+          3770.0
+        ],
+        "gpu_free_mib": [
+          4179.0,
+          4194.0,
+          6696.0
+        ],
+        "temperature_c": [
+          51.0,
+          51.5,
+          63.0
+        ],
+        "power_w": [
+          16.55,
+          22.055,
+          89.45
+        ],
+        "sm_mhz": [
+          1605.0,
+          1635.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          3.0,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.5484674790179468,
+        "fraction_wall_time_with_two_or_more": 0.2666638627507403,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.47211746806016525,
+        "fraction_wall_time_with_two_or_more": 0.20605904439874956,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.97026,
+      "native_decode_calls_all_phases": 269.0
+    },
+    {
+      "source": "phase3\\tail\\t12-corrected-ram0-v3",
+      "cache": 0,
+      "arm": "corrected",
+      "trial": 12,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1252.0,
+          3754.0,
+          3754.0
+        ],
+        "gpu_free_mib": [
+          4194.0,
+          4195.0,
+          6697.0
+        ],
+        "temperature_c": [
+          52.0,
+          56.0,
+          67.0
+        ],
+        "power_w": [
+          17.62,
+          60.485,
+          103.03
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          51.5,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.1362607769768631,
+        "fraction_wall_time_with_two_or_more": 0.5544437362055489,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 1.000355026535163,
+        "fraction_wall_time_with_two_or_more": 0.4265643266814999,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.80405,
+      "native_decode_calls_all_phases": 296.0
+    },
+    {
+      "source": "phase3\\tail\\t12-corrected-ram8192-v3",
+      "cache": 8192,
+      "arm": "corrected",
+      "trial": 12,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1252.0,
+          3755.0,
+          3755.0
+        ],
+        "gpu_free_mib": [
+          4194.0,
+          4194.0,
+          6697.0
+        ],
+        "temperature_c": [
+          51.0,
+          52.0,
+          62.0
+        ],
+        "power_w": [
+          15.59,
+          34.16,
+          83.75
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          2.0,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.5451740741183633,
+        "fraction_wall_time_with_two_or_more": 0.26494509526107396,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.4531096004865322,
+        "fraction_wall_time_with_two_or_more": 0.19501594302570757,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.9777,
+      "native_decode_calls_all_phases": 269.0
+    },
+    {
+      "source": "phase3\\tail\\t12-fifo-ram0-v3",
+      "cache": 0,
+      "arm": "fifo",
+      "trial": 12,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1252.0,
+          3755.0,
+          3757.0
+        ],
+        "gpu_free_mib": [
+          4192.0,
+          4194.0,
+          6697.0
+        ],
+        "temperature_c": [
+          51.0,
+          58.5,
+          66.0
+        ],
+        "power_w": [
+          15.47,
+          59.07,
+          94.55
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          60.0,
+          100.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.1321420049631878,
+        "fraction_wall_time_with_two_or_more": 0.5523866620150746,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.9855762207328348,
+        "fraction_wall_time_with_two_or_more": 0.4115187140836894,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.80068,
+      "native_decode_calls_all_phases": 296.0
+    },
+    {
+      "source": "phase3\\tail\\t12-fifo-ram8192-v3",
+      "cache": 8192,
+      "arm": "fifo",
+      "trial": 12,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1252.0,
+          3755.0,
+          3755.0
+        ],
+        "gpu_free_mib": [
+          4194.0,
+          4194.0,
+          6697.0
+        ],
+        "temperature_c": [
+          51.0,
+          52.5,
+          63.0
+        ],
+        "power_w": [
+          15.81,
+          23.005,
+          83.52
+        ],
+        "sm_mhz": [
+          1605.0,
+          1702.5,
+          2505.0
+        ],
+        "memory_mhz": [
+          7001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          1.5,
+          82.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.5277906935450689,
+        "fraction_wall_time_with_two_or_more": 0.2547655232958776,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.43656999223767734,
+        "fraction_wall_time_with_two_or_more": 0.18769457343259066,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.96654,
+      "native_decode_calls_all_phases": 269.0
+    },
+    {
+      "source": "phase3\\tail\\t13-corrected-ram0-v3",
+      "cache": 0,
+      "arm": "corrected",
+      "trial": 13,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1252.0,
+          3754.0,
+          3754.0
+        ],
+        "gpu_free_mib": [
+          4194.0,
+          4194.0,
+          6697.0
+        ],
+        "temperature_c": [
+          51.0,
+          61.5,
+          66.0
+        ],
+        "power_w": [
+          16.93,
+          70.39,
+          101.22
+        ],
+        "sm_mhz": [
+          1605.0,
+          2392.5,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          86.5,
+          100.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.38383144110702,
+        "fraction_wall_time_with_two_or_more": 0.6810028445481892,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 1.1831178526184856,
+        "fraction_wall_time_with_two_or_more": 0.4848289388650809,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.79798,
+      "native_decode_calls_all_phases": 297.0
+    },
+    {
+      "source": "phase3\\tail\\t13-corrected-ram8192-v3",
+      "cache": 8192,
+      "arm": "corrected",
+      "trial": 13,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1252.0,
+          3754.0,
+          3754.0
+        ],
+        "gpu_free_mib": [
+          4194.0,
+          4194.5,
+          6697.0
+        ],
+        "temperature_c": [
+          53.0,
+          54.0,
+          60.0
+        ],
+        "power_w": [
+          15.77,
+          34.6,
+          84.73
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          6.5,
+          97.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.6033939703977514,
+        "fraction_wall_time_with_two_or_more": 0.29416098584956263,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.4834807543822712,
+        "fraction_wall_time_with_two_or_more": 0.20991749815881453,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.96667,
+      "native_decode_calls_all_phases": 270.0
+    },
+    {
+      "source": "phase3\\tail\\t13-fifo-ram0-v3",
+      "cache": 0,
+      "arm": "fifo",
+      "trial": 13,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1254.0,
+          3755.0,
+          3763.0
+        ],
+        "gpu_free_mib": [
+          4186.0,
+          4194.0,
+          6695.0
+        ],
+        "temperature_c": [
+          53.0,
+          60.5,
+          67.0
+        ],
+        "power_w": [
+          15.9,
+          72.74,
+          103.78
+        ],
+        "sm_mhz": [
+          1605.0,
+          2460.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          83.0,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.3481176564874913,
+        "fraction_wall_time_with_two_or_more": 0.659748372663077,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 1.149235235581605,
+        "fraction_wall_time_with_two_or_more": 0.46664305934293787,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.77076,
+      "native_decode_calls_all_phases": 301.0
+    },
+    {
+      "source": "phase3\\tail\\t13-fifo-ram8192-v3",
+      "cache": 8192,
+      "arm": "fifo",
+      "trial": 13,
+      "samples": 19,
+      "ranges": {
+        "gpu_used_mib": [
+          1251.0,
+          3754.0,
+          3754.0
+        ],
+        "gpu_free_mib": [
+          4194.0,
+          4195.0,
+          6698.0
+        ],
+        "temperature_c": [
+          52.0,
+          53.0,
+          64.0
+        ],
+        "power_w": [
+          15.53,
+          34.26,
+          77.26
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          1.0,
+          100.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.6035347075463458,
+        "fraction_wall_time_with_two_or_more": 0.2928489380432258,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.48436103801489544,
+        "fraction_wall_time_with_two_or_more": 0.21153096984849484,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.9777,
+      "native_decode_calls_all_phases": 269.0
+    },
+    {
+      "source": "phase3\\tail\\t14-corrected-ram0-v3",
+      "cache": 0,
+      "arm": "corrected",
+      "trial": 14,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1252.0,
+          3755.0,
+          3762.0
+        ],
+        "gpu_free_mib": [
+          4187.0,
+          4194.0,
+          6697.0
+        ],
+        "temperature_c": [
+          53.0,
+          59.5,
+          66.0
+        ],
+        "power_w": [
+          17.13,
+          64.09,
+          94.63
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          63.0,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.132917768492443,
+        "fraction_wall_time_with_two_or_more": 0.5521840177336963,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 1.0144041978358762,
+        "fraction_wall_time_with_two_or_more": 0.4396423774519642,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.80743,
+      "native_decode_calls_all_phases": 296.0
+    },
+    {
+      "source": "phase3\\tail\\t14-corrected-ram8192-v3",
+      "cache": 8192,
+      "arm": "corrected",
+      "trial": 14,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1252.0,
+          3755.0,
+          3755.0
+        ],
+        "gpu_free_mib": [
+          4194.0,
+          4194.0,
+          6697.0
+        ],
+        "temperature_c": [
+          52.0,
+          53.5,
+          58.0
+        ],
+        "power_w": [
+          16.09,
+          34.739999999999995,
+          94.21
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          4.5,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.5434074202198337,
+        "fraction_wall_time_with_two_or_more": 0.26335251748011096,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.45882338803356393,
+        "fraction_wall_time_with_two_or_more": 0.19598104457370563,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.95572,
+      "native_decode_calls_all_phases": 271.0
+    },
+    {
+      "source": "phase3\\tail\\t14-fifo-ram0-v3",
+      "cache": 0,
+      "arm": "fifo",
+      "trial": 14,
+      "samples": 21,
+      "ranges": {
+        "gpu_used_mib": [
+          1252.0,
+          3755.0,
+          3755.0
+        ],
+        "gpu_free_mib": [
+          4194.0,
+          4194.0,
+          6697.0
+        ],
+        "temperature_c": [
+          51.0,
+          56.0,
+          65.0
+        ],
+        "power_w": [
+          17.13,
+          60.79,
+          102.5
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          78.0,
+          100.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.1343511957130976,
+        "fraction_wall_time_with_two_or_more": 0.549374261963731,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 1.0475647568247577,
+        "fraction_wall_time_with_two_or_more": 0.46966603488911685,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.79264,
+      "native_decode_calls_all_phases": 299.0
+    },
+    {
+      "source": "phase3\\tail\\t14-fifo-ram8192-v3",
+      "cache": 8192,
+      "arm": "fifo",
+      "trial": 14,
+      "samples": 19,
+      "ranges": {
+        "gpu_used_mib": [
+          1252.0,
+          3755.0,
+          3755.0
+        ],
+        "gpu_free_mib": [
+          4194.0,
+          4194.0,
+          6697.0
+        ],
+        "temperature_c": [
+          54.0,
+          55.0,
+          63.0
+        ],
+        "power_w": [
+          16.46,
+          35.01,
+          86.22
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          2.0,
+          95.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.5722590861712002,
+        "fraction_wall_time_with_two_or_more": 0.2777844997352771,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.4860127106639737,
+        "fraction_wall_time_with_two_or_more": 0.21070076787756817,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.96296,
+      "native_decode_calls_all_phases": 270.0
+    },
+    {
+      "source": "phase3\\tail\\t15-corrected-ram0-v3",
+      "cache": 0,
+      "arm": "corrected",
+      "trial": 15,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1252.0,
+          3755.0,
+          3771.0
+        ],
+        "gpu_free_mib": [
+          4177.0,
+          4194.0,
+          6697.0
+        ],
+        "temperature_c": [
+          50.0,
+          59.5,
+          66.0
+        ],
+        "power_w": [
+          14.82,
+          59.665000000000006,
+          101.45
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          68.5,
+          100.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.0573036049687607,
+        "fraction_wall_time_with_two_or_more": 0.51631028070849,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.9554658006933173,
+        "fraction_wall_time_with_two_or_more": 0.4197984834284586,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.82935,
+      "native_decode_calls_all_phases": 293.0
+    },
+    {
+      "source": "phase3\\tail\\t15-corrected-ram8192-v3",
+      "cache": 8192,
+      "arm": "corrected",
+      "trial": 15,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1252.0,
+          3755.0,
+          3755.0
+        ],
+        "gpu_free_mib": [
+          4194.0,
+          4194.0,
+          6697.0
+        ],
+        "temperature_c": [
+          53.0,
+          54.0,
+          60.0
+        ],
+        "power_w": [
+          16.35,
+          34.730000000000004,
+          92.44
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          2.5,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.5471922289211116,
+        "fraction_wall_time_with_two_or_more": 0.2664409726896452,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.4474140105550028,
+        "fraction_wall_time_with_two_or_more": 0.19326215339788005,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.96296,
+      "native_decode_calls_all_phases": 270.0
+    },
+    {
+      "source": "phase3\\tail\\t15-fifo-ram0-v3",
+      "cache": 0,
+      "arm": "fifo",
+      "trial": 15,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1252.0,
+          3754.0,
+          3758.0
+        ],
+        "gpu_free_mib": [
+          4191.0,
+          4195.0,
+          6697.0
+        ],
+        "temperature_c": [
+          52.0,
+          58.0,
+          66.0
+        ],
+        "power_w": [
+          15.06,
+          60.004999999999995,
+          99.47
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          80.5,
+          100.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.0806916755249165,
+        "fraction_wall_time_with_two_or_more": 0.5231140137884133,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.9685504697245522,
+        "fraction_wall_time_with_two_or_more": 0.4178542097266514,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.77741,
+      "native_decode_calls_all_phases": 301.0
+    },
+    {
+      "source": "phase3\\tail\\t15-fifo-ram8192-v3",
+      "cache": 8192,
+      "arm": "fifo",
+      "trial": 15,
+      "samples": 19,
+      "ranges": {
+        "gpu_used_mib": [
+          1252.0,
+          3755.0,
+          3755.0
+        ],
+        "gpu_free_mib": [
+          4194.0,
+          4194.0,
+          6697.0
+        ],
+        "temperature_c": [
+          51.0,
+          52.0,
+          60.0
+        ],
+        "power_w": [
+          15.89,
+          22.26,
+          70.26
+        ],
+        "sm_mhz": [
+          1605.0,
+          1620.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          2.0,
+          93.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.5634622528762608,
+        "fraction_wall_time_with_two_or_more": 0.2724643426554591,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.47254743512627756,
+        "fraction_wall_time_with_two_or_more": 0.2047613434103862,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.95572,
+      "native_decode_calls_all_phases": 271.0
+    },
+    {
+      "source": "phase3\\tail\\t16-corrected-ram0-v3",
+      "cache": 0,
+      "arm": "corrected",
+      "trial": 16,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1260.0,
+          3760.0,
+          3762.0
+        ],
+        "gpu_free_mib": [
+          4187.0,
+          4189.0,
+          6689.0
+        ],
+        "temperature_c": [
+          53.0,
+          62.5,
+          67.0
+        ],
+        "power_w": [
+          16.69,
+          71.67,
+          99.95
+        ],
+        "sm_mhz": [
+          1605.0,
+          2332.5,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          75.0,
+          100.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.278442134675807,
+        "fraction_wall_time_with_two_or_more": 0.6245396520854755,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 1.1338443455677627,
+        "fraction_wall_time_with_two_or_more": 0.4843893054958924,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.79125,
+      "native_decode_calls_all_phases": 297.0
+    },
+    {
+      "source": "phase3\\tail\\t16-corrected-ram8192-v3",
+      "cache": 8192,
+      "arm": "corrected",
+      "trial": 16,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1252.0,
+          3754.0,
+          3754.0
+        ],
+        "gpu_free_mib": [
+          4195.0,
+          4195.0,
+          6697.0
+        ],
+        "temperature_c": [
+          51.0,
+          53.0,
+          59.0
+        ],
+        "power_w": [
+          14.86,
+          34.705,
+          90.01
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          2.5,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.5817097599617632,
+        "fraction_wall_time_with_two_or_more": 0.28375552107929586,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.486992653625235,
+        "fraction_wall_time_with_two_or_more": 0.2095601451543171,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.95941,
+      "native_decode_calls_all_phases": 271.0
+    },
+    {
+      "source": "phase3\\tail\\t16-fifo-ram0-v3",
+      "cache": 0,
+      "arm": "fifo",
+      "trial": 16,
+      "samples": 21,
+      "ranges": {
+        "gpu_used_mib": [
+          1305.0,
+          3765.0,
+          3804.0
+        ],
+        "gpu_free_mib": [
+          4145.0,
+          4184.0,
+          6644.0
+        ],
+        "temperature_c": [
+          51.0,
+          62.0,
+          66.0
+        ],
+        "power_w": [
+          14.73,
+          71.94,
+          102.98
+        ],
+        "sm_mhz": [
+          1605.0,
+          2415.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          7001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          93.0,
+          100.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.2815912931990823,
+        "fraction_wall_time_with_two_or_more": 0.6249836705029693,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 1.1678994025516607,
+        "fraction_wall_time_with_two_or_more": 0.5168169495436156,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.79195,
+      "native_decode_calls_all_phases": 298.0
+    },
+    {
+      "source": "phase3\\tail\\t16-fifo-ram8192-v3",
+      "cache": 8192,
+      "arm": "fifo",
+      "trial": 16,
+      "samples": 19,
+      "ranges": {
+        "gpu_used_mib": [
+          1251.0,
+          3754.0,
+          3754.0
+        ],
+        "gpu_free_mib": [
+          4195.0,
+          4195.0,
+          6698.0
+        ],
+        "temperature_c": [
+          53.0,
+          54.0,
+          65.0
+        ],
+        "power_w": [
+          15.75,
+          34.83,
+          82.23
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          2.0,
+          93.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.6031864361710372,
+        "fraction_wall_time_with_two_or_more": 0.29358281900268346,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.4973205644055984,
+        "fraction_wall_time_with_two_or_more": 0.21488890722032625,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.94505,
+      "native_decode_calls_all_phases": 273.0
+    },
+    {
+      "source": "phase3\\tail\\t17-corrected-ram0-v3",
+      "cache": 0,
+      "arm": "corrected",
+      "trial": 17,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1265.0,
+          3761.0,
+          3765.0
+        ],
+        "gpu_free_mib": [
+          4184.0,
+          4188.0,
+          6684.0
+        ],
+        "temperature_c": [
+          51.0,
+          61.0,
+          65.0
+        ],
+        "power_w": [
+          16.92,
+          69.37,
+          98.24
+        ],
+        "sm_mhz": [
+          1605.0,
+          2347.5,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          75.0,
+          100.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.1389475395147632,
+        "fraction_wall_time_with_two_or_more": 0.5507358624881529,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.9717007144195388,
+        "fraction_wall_time_with_two_or_more": 0.39097179690009604,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.77926,
+      "native_decode_calls_all_phases": 299.0
+    },
+    {
+      "source": "phase3\\tail\\t17-corrected-ram8192-v3",
+      "cache": 8192,
+      "arm": "corrected",
+      "trial": 17,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1259.0,
+          3762.0,
+          3762.0
+        ],
+        "gpu_free_mib": [
+          4187.0,
+          4187.0,
+          6690.0
+        ],
+        "temperature_c": [
+          53.0,
+          54.0,
+          58.0
+        ],
+        "power_w": [
+          16.01,
+          34.825,
+          84.03
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          1.5,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.5284485934565267,
+        "fraction_wall_time_with_two_or_more": 0.25740881364719026,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.42441785054216796,
+        "fraction_wall_time_with_two_or_more": 0.18232644459679137,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.97026,
+      "native_decode_calls_all_phases": 269.0
+    },
+    {
+      "source": "phase3\\tail\\t17-fifo-ram0-v3",
+      "cache": 0,
+      "arm": "fifo",
+      "trial": 17,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1256.0,
+          3762.0,
+          3763.0
+        ],
+        "gpu_free_mib": [
+          4186.0,
+          4187.0,
+          6693.0
+        ],
+        "temperature_c": [
+          52.0,
+          58.0,
+          66.0
+        ],
+        "power_w": [
+          16.1,
+          65.71000000000001,
+          102.94
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          58.0,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.1384313484214272,
+        "fraction_wall_time_with_two_or_more": 0.5542686233081748,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.993471412062789,
+        "fraction_wall_time_with_two_or_more": 0.41401021458550047,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.81356,
+      "native_decode_calls_all_phases": 295.0
+    },
+    {
+      "source": "phase3\\tail\\t17-fifo-ram8192-v3",
+      "cache": 8192,
+      "arm": "fifo",
+      "trial": 17,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1259.0,
+          3762.0,
+          3781.0
+        ],
+        "gpu_free_mib": [
+          4168.0,
+          4187.0,
+          6690.0
+        ],
+        "temperature_c": [
+          52.0,
+          53.0,
+          64.0
+        ],
+        "power_w": [
+          15.89,
+          34.565,
+          79.44
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          2.0,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.5168232026555061,
+        "fraction_wall_time_with_two_or_more": 0.2500259267980913,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.42094590371249563,
+        "fraction_wall_time_with_two_or_more": 0.18089310655680504,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.97026,
+      "native_decode_calls_all_phases": 269.0
+    },
+    {
+      "source": "phase3\\tail\\t18-corrected-ram0-v3",
+      "cache": 0,
+      "arm": "corrected",
+      "trial": 18,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1259.0,
+          3761.0,
+          3764.0
+        ],
+        "gpu_free_mib": [
+          4185.0,
+          4188.0,
+          6690.0
+        ],
+        "temperature_c": [
+          51.0,
+          54.5,
+          64.0
+        ],
+        "power_w": [
+          15.66,
+          45.730000000000004,
+          80.96
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          19.0,
+          100.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.7685266591468738,
+        "fraction_wall_time_with_two_or_more": 0.3668290669497528,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.7103647316835101,
+        "fraction_wall_time_with_two_or_more": 0.3126561822287947,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.76238,
+      "native_decode_calls_all_phases": 303.0
+    },
+    {
+      "source": "phase3\\tail\\t18-corrected-ram8192-v3",
+      "cache": 8192,
+      "arm": "corrected",
+      "trial": 18,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1262.0,
+          3761.0,
+          3765.0
+        ],
+        "gpu_free_mib": [
+          4184.0,
+          4188.0,
+          6687.0
+        ],
+        "temperature_c": [
+          51.0,
+          52.0,
+          60.0
+        ],
+        "power_w": [
+          14.73,
+          22.845,
+          63.77
+        ],
+        "sm_mhz": [
+          1605.0,
+          1612.5,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          17.5,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.5655842931483775,
+        "fraction_wall_time_with_two_or_more": 0.2751136822612385,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.5004064416006524,
+        "fraction_wall_time_with_two_or_more": 0.22288234863626957,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.9631,
+      "native_decode_calls_all_phases": 271.0
+    },
+    {
+      "source": "phase3\\tail\\t18-fifo-ram0-v3",
+      "cache": 0,
+      "arm": "fifo",
+      "trial": 18,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1252.0,
+          3756.0,
+          3761.0
+        ],
+        "gpu_free_mib": [
+          4188.0,
+          4193.0,
+          6697.0
+        ],
+        "temperature_c": [
+          51.0,
+          54.5,
+          65.0
+        ],
+        "power_w": [
+          14.61,
+          47.565,
+          90.9
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          14.0,
+          100.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.7756922383511148,
+        "fraction_wall_time_with_two_or_more": 0.37082127848908114,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.7298542142330898,
+        "fraction_wall_time_with_two_or_more": 0.3321155075352509,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.79392,
+      "native_decode_calls_all_phases": 296.0
+    },
+    {
+      "source": "phase3\\tail\\t18-fifo-ram8192-v3",
+      "cache": 8192,
+      "arm": "fifo",
+      "trial": 18,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1262.0,
+          3763.0,
+          3777.0
+        ],
+        "gpu_free_mib": [
+          4172.0,
+          4186.0,
+          6687.0
+        ],
+        "temperature_c": [
+          53.0,
+          54.0,
+          62.0
+        ],
+        "power_w": [
+          16.1,
+          34.255,
+          68.59
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          2.0,
+          95.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.5556114426567162,
+        "fraction_wall_time_with_two_or_more": 0.26969142690119496,
+        "max_active": 2
+      },
+      "engine_overlap": null,
+      "native_busy_slots_per_decode_all_phases": 1.92647,
+      "native_decode_calls_all_phases": 272.0
+    },
+    {
+      "source": "phase3\\tail\\t19-corrected-ram0-v3",
+      "cache": 0,
+      "arm": "corrected",
+      "trial": 19,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1388.0,
+          3891.0,
+          3891.0
+        ],
+        "gpu_free_mib": [
+          4058.0,
+          4058.0,
+          6561.0
+        ],
+        "temperature_c": [
+          50.0,
+          59.0,
+          66.0
+        ],
+        "power_w": [
+          15.37,
+          73.55000000000001,
+          92.07
+        ],
+        "sm_mhz": [
+          1605.0,
+          2460.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          0.0,
+          45.5,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.4261950944509965,
+        "fraction_wall_time_with_two_or_more": 0.6812530089887242,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 1.2126564908848845,
+        "fraction_wall_time_with_two_or_more": 0.47457712379307854,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.71284,
+      "native_decode_calls_all_phases": 296.0
+    },
+    {
+      "source": "phase3\\tail\\t19-corrected-ram8192-v3",
+      "cache": 8192,
+      "arm": "corrected",
+      "trial": 19,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1251.0,
+          3760.0,
+          3784.0
+        ],
+        "gpu_free_mib": [
+          4165.0,
+          4189.0,
+          6698.0
+        ],
+        "temperature_c": [
+          51.0,
+          53.0,
+          60.0
+        ],
+        "power_w": [
+          16.47,
+          34.040000000000006,
+          90.79
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          2.5,
+          73.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.5793878520396908,
+        "fraction_wall_time_with_two_or_more": 0.28196598381065513,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.47662666262635073,
+        "fraction_wall_time_with_two_or_more": 0.2066545194527577,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.94139,
+      "native_decode_calls_all_phases": 273.0
+    },
+    {
+      "source": "phase3\\tail\\t19-fifo-ram0-v3",
+      "cache": 0,
+      "arm": "fifo",
+      "trial": 19,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1389.0,
+          3891.0,
+          3891.0
+        ],
+        "gpu_free_mib": [
+          4058.0,
+          4058.0,
+          6560.0
+        ],
+        "temperature_c": [
+          51.0,
+          59.5,
+          66.0
+        ],
+        "power_w": [
+          15.41,
+          71.525,
+          101.47
+        ],
+        "sm_mhz": [
+          1605.0,
+          2422.5,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          0.0,
+          47.5,
+          100.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 1.5463112935984098,
+        "fraction_wall_time_with_two_or_more": 0.7429094833507575,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 1.3187191732960193,
+        "fraction_wall_time_with_two_or_more": 0.5224160258339327,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.7449,
+      "native_decode_calls_all_phases": 294.0
+    },
+    {
+      "source": "phase3\\tail\\t19-fifo-ram8192-v3",
+      "cache": 8192,
+      "arm": "fifo",
+      "trial": 19,
+      "samples": 20,
+      "ranges": {
+        "gpu_used_mib": [
+          1450.0,
+          3880.0,
+          3891.0
+        ],
+        "gpu_free_mib": [
+          4058.0,
+          4069.0,
+          6499.0
+        ],
+        "temperature_c": [
+          51.0,
+          53.0,
+          64.0
+        ],
+        "power_w": [
+          17.35,
+          33.805,
+          85.14
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          0.0,
+          11.5,
+          99.0
+        ]
+      },
+      "sampling_errors": [],
+      "client_overlap": {
+        "mean_active": 0.918648450908793,
+        "fraction_wall_time_with_two_or_more": 0.45222648841549157,
+        "max_active": 2
+      },
+      "engine_overlap": {
+        "mean_active": 0.6743261919936924,
+        "fraction_wall_time_with_two_or_more": 0.2697471211700641,
+        "max_active": 2
+      },
+      "native_busy_slots_per_decode_all_phases": 1.97398,
+      "native_decode_calls_all_phases": 269.0
+    }
+  ],
+  "groups": [
+    {
+      "cache": 0,
+      "arm": "corrected",
+      "samples": 402,
+      "ranges": {
+        "gpu_used_mib": [
+          1252.0,
+          3756.0,
+          3891.0
+        ],
+        "gpu_free_mib": [
+          4058.0,
+          4193.0,
+          6697.0
+        ],
+        "temperature_c": [
+          50.0,
+          59.0,
+          68.0
+        ],
+        "power_w": [
+          14.82,
+          63.53,
+          103.76
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          0.0,
+          62.5,
+          100.0
+        ]
+      },
+      "median_engine_mean_active": 1.0057304701431677,
+      "median_engine_two_slot_wall_fraction": 0.42397427269823407,
+      "median_native_busy_slots_per_decode": 1.7986550000000001
+    },
+    {
+      "cache": 8192,
+      "arm": "corrected",
+      "samples": 397,
+      "ranges": {
+        "gpu_used_mib": [
+          1251.0,
+          3755.0,
+          3784.0
+        ],
+        "gpu_free_mib": [
+          4165.0,
+          4194.0,
+          6698.0
+        ],
+        "temperature_c": [
+          50.0,
+          53.0,
+          66.0
+        ],
+        "power_w": [
+          14.72,
+          34.1,
+          96.88
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          8001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          1.0,
+          2.0,
+          100.0
+        ]
+      },
+      "median_engine_mean_active": 0.4669140334601044,
+      "median_engine_two_slot_wall_fraction": 0.2043573378638527,
+      "median_native_busy_slots_per_decode": 1.96482
+    },
+    {
+      "cache": 0,
+      "arm": "fifo",
+      "samples": 405,
+      "ranges": {
+        "gpu_used_mib": [
+          1251.0,
+          3758.0,
+          3891.0
+        ],
+        "gpu_free_mib": [
+          4058.0,
+          4191.0,
+          6698.0
+        ],
+        "temperature_c": [
+          50.0,
+          59.0,
+          68.0
+        ],
+        "power_w": [
+          14.61,
+          62.73,
+          104.18
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          7001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          0.0,
+          70.0,
+          100.0
+        ]
+      },
+      "median_engine_mean_active": 0.9987873395577023,
+      "median_engine_two_slot_wall_fraction": 0.42320157769377836,
+      "median_native_busy_slots_per_decode": 1.7915999999999999
+    },
+    {
+      "cache": 8192,
+      "arm": "fifo",
+      "samples": 393,
+      "ranges": {
+        "gpu_used_mib": [
+          1251.0,
+          3757.0,
+          3891.0
+        ],
+        "gpu_free_mib": [
+          4058.0,
+          4192.0,
+          6698.0
+        ],
+        "temperature_c": [
+          51.0,
+          53.0,
+          66.0
+        ],
+        "power_w": [
+          14.75,
+          33.91,
+          95.81
+        ],
+        "sm_mhz": [
+          1605.0,
+          2505.0,
+          2505.0
+        ],
+        "memory_mhz": [
+          7001.0,
+          8001.0,
+          8001.0
+        ],
+        "gpu_util_percent": [
+          0.0,
+          2.0,
+          100.0
+        ]
+      },
+      "median_engine_mean_active": 0.47254743512627756,
+      "median_engine_two_slot_wall_fraction": 0.20605904439874956,
+      "median_native_busy_slots_per_decode": 1.96296
+    }
+  ]
+}

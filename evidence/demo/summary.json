@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "purpose": "small smoke demonstration; not repeated research evidence",
+  "requests": 12,
+  "concurrency": 2,
+  "output_tokens": 8,
+  "cache_mib": 8192,
+  "fixture_sha256": "eb1896e0a285a53874cb22eab6c1cb430d98944720a7fc6c11a53c74789b501b",
+  "arms": {
+    "stock": {
+      "attempts": 12,
+      "failures": 0,
+      "warmup_failures": 0,
+      "median_ttft_ms": 96.82474999999954,
+      "p95_ttft_ms": 416.5605949999999,
+      "evaluated_tokens": 2190,
+      "reused_tokens": 22386
+    },
+    "custom": {
+      "attempts": 12,
+      "failures": 0,
+      "warmup_failures": 0,
+      "median_ttft_ms": 103.83015000000026,
+      "p95_ttft_ms": 365.69343,
+      "evaluated_tokens": 2190,
+      "reused_tokens": 22386
+    },
+    "corrected": {
+      "attempts": 12,
+      "failures": 0,
+      "warmup_failures": 0,
+      "median_ttft_ms": 79.967,
+      "p95_ttft_ms": 330.960465,
+      "evaluated_tokens": 2190,
+      "reused_tokens": 22386
+    }
+  },
+  "elapsed_seconds": 25.02998580003623
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "source": "runs/phase4-mini-demo/summary.json",
+    "original_sha256": "639d8e3b907877808f33d3afe9b4553d43de683cae01e32e07ff11b00e96a068",
+    "review_path": "demo/summary.json",
+    "review_sha256": "639d8e3b907877808f33d3afe9b4553d43de683cae01e32e07ff11b00e96a068"
+  },
+  {
+    "source": "runs/phase4-mini-demo/identity.json",
+    "original_sha256": "3adacf4a1f9c4d6b2d6cceb55863dc14b88fb3e0e1d4ccad4f2c9fb1ffd30075",
+    "review_path": "demo/identity.json",
+    "review_sha256": "3adacf4a1f9c4d6b2d6cceb55863dc14b88fb3e0e1d4ccad4f2c9fb1ffd30075"
+  },
+  {
+    "source": "runs/phase4-mini-demo/preparation/launch.json",
+    "original_sha256": "7e3573b3a562938aa4648e0803c00d2cc029fc804f6ae4efd961f4f6eec3a782",
+    "review_path": "demo/preparation/launch.json",
+    "review_sha256": "7a36ca10449259d908e3090ecf36f82892e27da2b0eb3bcd050e4899dc18ba11"
+  },
+  {
+    "source": "runs/phase4-mini-demo/stock/launch.json",
+    "original_sha256": "4a0540700681702b2cd4ac868473126391656d8e3dd8d2093d30a7ebb6a9bf88",
+    "review_path": "demo/stock/launch.json",
+    "review_sha256": "719cc31992ac02e9af65bc668f97e7510ff85b7b9056ada99386ed309126327c"
+  },
+  {
+    "source": "runs/phase4-mini-demo/stock/requests.jsonl",
+    "original_sha256": "f2e643fc6b88d66a0566bfff484bfe2d00f002dab77a26db29dc34653a418c5f",
+    "review_path": "demo/stock/requests.jsonl",
+    "review_sha256": "ecb97e9c127bf2d778e8aa01ef9f188f4d092a9fc134bf45769d66bdfec5dff3"
+  },
+  {
+    "source": "runs/phase4-mini-demo/custom/launch.json",
+    "original_sha256": "52607cb72a2f91a18b0847fbe8e9ea00bc336feb2a90d4b01aa17970daac3f38",
+    "review_path": "demo/custom/launch.json",
+    "review_sha256": "e9f34a4bfc71783f18dd924aa54e94007f3f59a6be3100e3ca7dd4fad4521867"
+  },
+  {
+    "source": "runs/phase4-mini-demo/custom/requests.jsonl",
+    "original_sha256": "6b503803aa41d34fc9cc38193c6145d38c0989cab517c0a6bd4c426b518febad",
+    "review_path": "demo/custom/requests.jsonl",
+    "review_sha256": "7a1769144f643d55ddf056973817ee557a4e7652a65772156b9212c39201d695"
+  },
+  {
+    "source": "runs/phase4-mini-demo/corrected/launch.json",
+    "original_sha256": "173795d17ad2691cdf17cc3bcc561b13cc39dfd5370f7d5530591bf41d001cf4",
+    "review_path": "demo/corrected/launch.json",
+    "review_sha256": "06f0a5cb38fe14e4a09b005d0b6eb736c8a616b262631fe2b7aaa7ad8586785d"
+  },
+  {
+    "source": "runs/phase4-mini-demo/corrected/requests.jsonl",
+    "original_sha256": "2c8ecd6418589ed801d7cdeba5bb2fdc77d1699bd715516087eea105c58da62f",
+    "review_path": "demo/corrected/requests.jsonl",
+    "review_sha256": "5c377c45d89788d460a38c02b0cba59a579d644a8e66e00fc5f688fc052154d0"
+  }
+]

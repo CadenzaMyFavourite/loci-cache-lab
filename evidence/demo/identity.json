@@ -1,0 +1,11 @@
+{
+  "model_sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+  "server_sha256": "81f65c6681d66099e5d48757aa2c050ba958dc43816e584f0bb4181eb7c910d8",
+  "server_verified_against_pinned_archive": true,
+  "client_sha256": "61d811b54f798bc7a9dba19d461798c22a519c2f47816274a704fad1d787ed96",
+  "engine": "b11960",
+  "context": 12288,
+  "slots": 2,
+  "kv": "f16",
+  "predict": 8
+}

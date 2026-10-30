@@ -1,0 +1,98 @@
+[
+  {
+    "context": 16384,
+    "kv": "f16",
+    "slots": [
+      {
+        "id": 0,
+        "n_ctx": 8192,
+        "speculative": false,
+        "is_processing": false
+      },
+      {
+        "id": 1,
+        "n_ctx": 8192,
+        "speculative": false,
+        "is_processing": false
+      }
+    ],
+    "native_gpu_buffers": {
+      "KV_mib": 576.0,
+      "model_mib": 1834.83,
+      "compute_mib": 88.51
+    },
+    "scope": "exact sizes printed by backend, not total process VRAM or request peak"
+  },
+  {
+    "context": 9216,
+    "kv": "f16",
+    "slots": [
+      {
+        "id": 0,
+        "n_ctx": 4608,
+        "speculative": false,
+        "is_processing": false
+      },
+      {
+        "id": 1,
+        "n_ctx": 4608,
+        "speculative": false,
+        "is_processing": false
+      }
+    ],
+    "native_gpu_buffers": {
+      "KV_mib": 324.0,
+      "model_mib": 1834.83,
+      "compute_mib": 85.01
+    },
+    "scope": "exact sizes printed by backend, not total process VRAM or request peak"
+  },
+  {
+    "context": 16384,
+    "kv": "q8_0",
+    "slots": [
+      {
+        "id": 0,
+        "n_ctx": 8192,
+        "speculative": false,
+        "is_processing": false
+      },
+      {
+        "id": 1,
+        "n_ctx": 8192,
+        "speculative": false,
+        "is_processing": false
+      }
+    ],
+    "native_gpu_buffers": {
+      "KV_mib": 306.03,
+      "model_mib": 1834.83,
+      "compute_mib": 88.59
+    },
+    "scope": "exact sizes printed by backend, not total process VRAM or request peak"
+  },
+  {
+    "context": 9216,
+    "kv": "q8_0",
+    "slots": [
+      {
+        "id": 0,
+        "n_ctx": 4608,
+        "speculative": false,
+        "is_processing": false
+      },
+      {
+        "id": 1,
+        "n_ctx": 4608,
+        "speculative": false,
+        "is_processing": false
+      }
+    ],
+    "native_gpu_buffers": {
+      "KV_mib": 172.15,
+      "model_mib": 1834.83,
+      "compute_mib": 85.09
+    },
+    "scope": "exact sizes printed by backend, not total process VRAM or request peak"
+  }
+]

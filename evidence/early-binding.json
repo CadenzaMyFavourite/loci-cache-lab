@@ -1,0 +1,117 @@
+{
+  "source": "phase2/analysis-verbose/correlated.jsonl",
+  "source_sha256": "37d2772b1be96b73dbbd942b3bb9eedaeed02b55ed873c7ce1a7c480a45eda09",
+  "correlation": "inferred per-slot order, validated against exact token IDs and evaluation counters",
+  "clock_offset_feasible_ms": [
+    -1046.265,
+    -1045.5391999999997
+  ],
+  "alternate_slot": 1,
+  "alternate_prefix_tokens": 2034,
+  "alternate_released_engine_ms": 3156.191,
+  "limitation": "Reconstructed routing opportunity, not a prediction of alternate-run latency. Verbose diagnostics are separate from headline timing.",
+  "requests": [
+    {
+      "request_id": 10,
+      "conversation": "B",
+      "input_tokens": 2048,
+      "ttft_ms": 307.9312999999998,
+      "http_ttft_ms": 307.8935,
+      "timings": {
+        "cache_n": 4,
+        "predicted_ms": 113.327,
+        "predicted_n": 8,
+        "predicted_per_second": 61.76815763233829,
+        "predicted_per_token_ms": 16.18957142857143,
+        "prompt_ms": 289.911,
+        "prompt_n": 2044,
+        "prompt_per_second": 7050.43961767577,
+        "prompt_per_token_ms": 0.14183512720156555
+      },
+      "engine": {
+        "posted_ms": 3142.126,
+        "slot": 0,
+        "launched_ms": 3156.483,
+        "selected_ms": 3156.206,
+        "token_ids": [
+          33,
+          12,
+          22,
+          24,
+          22,
+          13,
+          151644,
+          198
+        ],
+        "first_token_ms": 3446.42,
+        "last_token_ms": 3559.747,
+        "prompt_ms": 289.91,
+        "evaluated": 2044,
+        "released_ms": 3559.827,
+        "task_id": 59
+      },
+      "engine_queue_prepare_ms": 14.356999999999971,
+      "output_tokens": [
+        33,
+        12,
+        22,
+        24,
+        22,
+        13,
+        151644,
+        198
+      ]
+    },
+    {
+      "request_id": 11,
+      "conversation": "B",
+      "input_tokens": 2048,
+      "ttft_ms": 326.069,
+      "http_ttft_ms": 326.04060000000055,
+      "timings": {
+        "cache_n": 2034,
+        "predicted_ms": 91.223,
+        "predicted_n": 8,
+        "predicted_per_second": 76.73503392784714,
+        "predicted_per_token_ms": 13.031857142857143,
+        "prompt_ms": 36.636,
+        "prompt_n": 14,
+        "prompt_per_second": 382.13778796811874,
+        "prompt_per_token_ms": 2.616857142857143
+      },
+      "engine": {
+        "posted_ms": 3158.886,
+        "slot": 1,
+        "launched_ms": 3446.728,
+        "selected_ms": 3446.429,
+        "token_ids": [
+          33,
+          12,
+          22,
+          24,
+          22,
+          13,
+          151644,
+          198
+        ],
+        "first_token_ms": 3483.389,
+        "last_token_ms": 3574.835,
+        "prompt_ms": 36.64,
+        "evaluated": 14,
+        "released_ms": 3575.163,
+        "task_id": 61
+      },
+      "engine_queue_prepare_ms": 287.8420000000001,
+      "output_tokens": [
+        33,
+        12,
+        22,
+        24,
+        22,
+        13,
+        151644,
+        198
+      ]
+    }
+  ]
+}

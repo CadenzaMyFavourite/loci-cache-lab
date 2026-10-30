@@ -1,0 +1,29 @@
+/target/
+/.venv/
+/vendor/
+/models/
+/downloads/
+/runs/
+/phase2/baseline/
+__pycache__/
+*.part
+
+# Historical originals stay local. Publish the reviewed export described in
+# FINAL_HANDOFF.md; portable review evidence lives in evidence/.
+/phase2/
+/phase3/
+/phase4/
+/results/
+/workloads/
+/environment/*
+!/environment/artifacts.json
+/analysis/*
+!/analysis/*.png
+node_modules/
+*.exe
+*.dll
+*.gguf
+*.zip
+*.nsys-rep
+*.sqlite
+/.chart-data-*/
